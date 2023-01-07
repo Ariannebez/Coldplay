@@ -1,0 +1,293 @@
+/*************
+*    Tags    *
+**************/
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    margin: 0;
+    color: #E7F6F2;
+    background-color: #2C3333;
+    font-size: 30px;
+}
+
+footer{
+    background-color: #395B64;
+
+}
+
+/* Nav style */
+nav div{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+a:hover {
+    background-color: #A5C9CA;
+
+    }
+
+
+
+/**Icons**/
+
+  
+
+
+
+
+/*************
+*   classes  *
+**************/
+.bg-custom {
+    background-color: #395B64;
+    
+}
+
+.logoimg{
+    height: 6em;
+    width: 6em;
+    
+ }
+/**index**/
+.container-fluid, .divimg, main{
+    
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    align-items: center;
+    
+    
+}
+
+.gimg{
+    width: 100%;
+    height: 30em;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    
+}
+
+.vid{
+    text-align: center;
+    margin-top: 2em; 
+    margin-bottom: 2em;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+
+}
+
+/** artist**/
+.artMain {
+    width: 50%;
+    margin-top: 2em; 
+    margin-bottom: 2em;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.carousel-inner{
+    min-height: 50px;
+    margin-left: 0%;
+    margin-right: 0%;
+    
+}
+
+.carousel img {
+
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+   
+  }
+
+
+
+.carousel button{
+    background-color: rgba(223, 230, 222, 0.295);
+}
+
+/**BTN**/
+/**
+.btn{
+    background-color: #A5C9CA;
+    margin-top: 2em;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+    
+
+.btncolor{
+    background-color: #A5C9CA;
+    border-radius: 2em;
+    border-color: #A5C9CA;
+    color: #E7F6F2;
+    padding: 1em;
+    font-size: larger;
+    
+} **/
+
+/***Bio***/
+p, h1{
+    margin: 0%;
+    padding: 0%;
+}
+ 
+.container1{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.Chriscontent1{
+    
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    flex-basis: 50%;
+    flex-grow: 4;
+    order: 1;
+}
+.Chriscontent2{
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-top: 2em;
+    flex-basis: 10%;
+    order: 2;
+}
+
+.container2{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.Guycontent1{
+    
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    flex-basis: 50%;
+    flex-grow: 4;
+    order: 2;
+}
+.Guycontent2{
+    
+    margin-left: 2em;
+    margin-top: 2em;
+    flex-basis: 10%;
+    order: 1;
+}
+
+.container3{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.Jonnycontent1{
+    
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    flex-basis: 50%;
+    flex-grow: 4;
+    order: 1;
+}
+.Jonnycontent2{
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-top: 2em;
+    flex-basis: 10%;
+    order: 2;
+}
+
+.container4{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.Willcontent1{
+    
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    flex-basis: 50%;
+    flex-grow: 4;
+    order: 2;
+}
+.Willcontent2{
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-top: 2em;
+    flex-basis: 10%;
+    order: 1;
+}
+
+/**About Us**/
+.container5{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.Aboutcontent1{
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    flex-basis: 50%;
+    flex-grow: 4;
+    order: 1;
+}
+.Aboutcontent2{
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    flex-basis: 30%;
+    order: 2;
+}
+
+/**Conact**/
+.contact-form label, .contact-form input, .contact-form textarea{
+    display: block;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+   .contact-form label{
+       margin-bottom: 0.5em;
+   }
+   
+   .contact-form input, .contact-form textarea{
+       border: 1px solid #0ea475;
+       font-family: inherit;
+       font-size: 1em;
+       padding: o.5em;
+   }
+
+   
+
+   
+
+
+
+
+
