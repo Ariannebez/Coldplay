@@ -90,6 +90,8 @@ a:hover {
 
 }
 
+
+
 /** artist**/
 .carousel-inner{
     
@@ -100,7 +102,7 @@ a:hover {
 }
 
 .carousel img {
-
+    width: 100%;
     padding-left: 0%;
     padding-right: 0%;
     margin-left: 0%;
@@ -428,7 +430,7 @@ p, h1{
     }   
 }
 
-@media only screen and (min-width: 700px) {
+@media(max-width:800px) {
     /* For tablets: */
 
     .gimg{
@@ -584,8 +586,12 @@ p, h1{
             width: 650px;
             height: 400px;
         }
-    
-  }
+
+
+
+}
+
+
 
    
 
