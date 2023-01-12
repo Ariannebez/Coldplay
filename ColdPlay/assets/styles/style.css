@@ -277,7 +277,7 @@ p, h1{
        border: 1px solid #0ea475;
        font-family: inherit;
        font-size: 1em;
-       padding: o.5em;
+       padding: 0.5em;
    }
 
    /**SCREEN SIZES**/
@@ -396,7 +396,7 @@ p, h1{
 
     .imgsA{
         width: 400px;
-        height: 250;
+        height: 250px;
     }
 
     /**About us**/
@@ -554,7 +554,7 @@ p, h1{
     
         .imgsA{
             width: 400px;
-            height: 250;
+            
         }
     
         /**About us**/
