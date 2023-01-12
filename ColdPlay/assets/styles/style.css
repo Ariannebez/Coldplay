@@ -430,7 +430,7 @@ p, h1{
     }   
 }
 
-@media(max-width:800px) {
+@media(min-width:501px) and (max-width:1000px) {
     /* For tablets: */
 
     .gimg{
